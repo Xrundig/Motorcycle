@@ -1,0 +1,86 @@
+body,html{
+	height: 100%;
+}
+body{
+	margin:0;
+}
+@font-face{
+	font-family: Roboto;
+	src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.page-maker{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Roboto;
+}
+.page-head{
+	width: 100%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 10%;
+	font-family: Roboto;
+	font-size: 200%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-maker{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.select-maker{
+	width: 100%;
+	height: 10%;
+}
+.button-maker{
+	width: 100%;
+	height: 10%;
+}
+.page-type{
+	width: 100%;
+	height: 100%;
+	display: none;
+	flex-wrap: wrap;
+	font-family: Roboto;
+}
+.type-head{
+	width: 100%;
+	height: 20%;
+	background-color: yellow;
+	box-sizing: border-box;
+	padding: 10%;
+	font-family: Roboto;
+	font-size: 200%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.type-moto{
+	width: 100%;
+	height: 80%;
+	background-color: blue;
+	background-image: url(pictures/naked.png);
+	background-position: center;
+	background-size: 100%;
+}
+
+
+
+
+.visible{
+	display: block;
+}
+.visible{
+	display: flex;
+}
+.invisible{
+	display:none;
+}
